@@ -18,3 +18,6 @@ You can find assets [here](https://github.com/misode/mcmeta/tree/main)
 This project is not an official Minecraft product, and is not endorsed by or associated with Mojang Studios.  
 All data belong to Mojang and presented here only for educational purposes.  
 If Mojang ever has something against this data existing here, the repository will be promptly removed.
+
+### Changelog
+2025-04-11: Recompiled with Vineflower 1.11.1
