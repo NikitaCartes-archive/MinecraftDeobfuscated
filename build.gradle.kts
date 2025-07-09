@@ -8,7 +8,7 @@ plugins {
 }
 
 java {
-    sourceSets["main"].java.srcDirs("src")
+    sourceSets["main"].java.srcDirs("minecraft/src")
 }
 
 tasks.register("downloadJars") {
@@ -62,6 +62,8 @@ dependencies {
     if (externalJars.isNotEmpty()) {
         implementation(files(externalJars))
     }
+    implementation("net.fabricmc:fabric-loader:0.16.14")
+    implementation("com.google.code.findbugs:jsr305:3.0.2")
 }
 
 // Ensure build depends on downloading the JARs
